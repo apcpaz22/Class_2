@@ -1,0 +1,4 @@
+Data types are a classification that defines the type of data the variable has. (String, Number, Boolean, Array, object, null, undefined)
+Operators are used for performing operations on values and variables (Arithmetic +, -, *, /, %, ++, --)(Comparison ==, ===, !=, !==, >, <, >=,<=) (comparisons &&, ||, !)(Assignment =, +=, -=, *=, /=, %=)
+Conditional statements are used to trigger an action if the specified condition(s) are met.
+Loops are used to trigger repeating actions until the specified condition(s) are met.

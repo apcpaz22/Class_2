@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Getting Started with Javascript 2.7 </title>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+<style>
+    body { padding: 30px; }
+</style>
+    </head>
+    <body>
+        <h1>Snack Bar</h1>
+        <h2>Fall Menu</h2>
+        <ul id="items-list"></ul>
+
+        <!--🔥🔥🔥Start Javascript 🔥🔥🔥-->
+        <script>
+let itemsList = document.getElementById("items-list");
+let items = [
+    {name: 'soda', price: '$1.00'},
+    {name: 'chips', price: '$0.75'},
+    {name: 'burger', price: '$4.00'},
+    {name: 'candy', price: '$1.25'}
+];
+
+for (let i = 0; i < itemsList.length; i++) {
+    let itemElm = document.createElement('li');
+    itemElm.innerText = items[i].name;
+if (items[i].name === 'soda') {
+    itemElm.style.color = 'red'
+} else {items.style.color ='green'};
+    itemsList.appendchild(itemElm)
+}
+
+
+        </script>
+    </body>
+</html>
